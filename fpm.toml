@@ -6,7 +6,7 @@ maintainer = ["@awvwgk"]
 copyright = "Copyright 2021 Sebastian Ehlert"
 
 [build]
-link = ["lapack", "blas"]
+link = ["openblas"]
 
 [dependencies]
 mctc-lib.git = "https://github.com/grimme-lab/mctc-lib.git"
